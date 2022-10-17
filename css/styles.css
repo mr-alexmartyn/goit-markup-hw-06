@@ -600,7 +600,7 @@ a {
 }
 
 .join-email-thumb {
-  margin-left: 93px;
+  margin-left: auto;
 }
 .mail-subscribe-form {
   display: flex;
