@@ -604,14 +604,13 @@ a {
 }
 .mail-subscribe-form {
   display: flex;
+  margin-top: 20px;
 }
 
 .footer-mail-input {
   width: 358px;
   padding: 16px 15px;
-  margin-top: 20px;
 
-  outline: none;
   background-color: var(--bgd-color);
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
@@ -621,7 +620,6 @@ a {
 }
 
 .btn-mail-subscribe {
-  margin-top: 20px;
   margin-left: 12px;
   padding: 13px 28px;
   background-color: var(--accent-color);
@@ -789,13 +787,13 @@ a {
   visibility: hidden;
 }
 .modal {
-  min-width: 528px;
-  min-height: 581px;
+  width: 528px;
+  height: 581px;
   background-color: var(--white-color);
   position: absolute;
   top: 50%;
   left: 50%;
-  padding: 40px 40px;
+  padding: 40px;
   transform: translate(-50%, -50%) scale(1);
   transition: transform var(--transition-timing) var(--cubic);
 }
@@ -819,6 +817,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: fill var(--transition-timing) var(--cubic);
 }
 .modal-btn:hover {
   fill: var(--accent-color);
@@ -867,6 +866,8 @@ a {
   margin-top: 4px;
   padding: 12px 16px;
   outline: none;
+  resize: none;
+  height: 120px;
 
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
@@ -898,7 +899,7 @@ a {
 .form-check {
   display: flex;
   align-items: center;
-
+  margin-bottom: 20px;
   transition: transform var(--transition-timing) var(--cubic);
 }
 
